@@ -1,0 +1,33 @@
+<style>
+  @import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+</style>
+<div class="animate__animated animate__backInDown fixed inset-0 bg-indigo-50">
+  <div class="absolute left-1/2 top-1/2 w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white px-6 py-10 shadow-lg shadow-black/5">
+    <div class="flex justify-center">
+      <div class="h-20 w-20 rounded-full bg-emerald-500 p-1 text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z" fill="currentColor"></path></svg>
+      </div>
+    </div>
+    <div class="mt-6 text-center">
+      <h2 class="mb-3 text-2xl font-bold text-emerald-500">E-mail enviado!</h2>
+      <p class="text-lg text-slate-600">Seu e-mail foi enviado com sucesso!</p>
+    </div>
+    <div class="mt-6 flex justify-center">
+      <button class="inline-flex rounded-lg bg-emerald-500 px-6 py-2.5 font-medium text-white outline-none transition-all hover:bg-emerald-600 focus:bg-emerald-600 focus:ring-4 focus:ring-emerald-200">Continuar</button>
+    </div>
+  </div>
+  <div class="absolute left-1/2 top-1/2 hidden w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white px-6 py-10 shadow-lg shadow-black/5">
+    <div class="flex justify-center">
+      <div class="h-20 w-20 rounded-full bg-rose-500 p-1 text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z" fill="currentColor"></path></svg>
+      </div>
+    </div>
+    <div class="mt-6 text-center">
+      <h2 class="mb-3 text-2xl font-bold text-rose-500">Erro ao enviar e-mail!</h2>
+      <p class="text-lg text-slate-600">Não foi possível enviar seu e-mail!</p>
+    </div>
+    <div class="mt-6 flex justify-center">
+      <button class="inline-flex rounded-lg bg-rose-500 px-6 py-2.5 font-medium text-white outline-none transition-all hover:bg-rose-600 focus:bg-rose-600 focus:ring-4 focus:ring-rose-200">Continuar</button>
+    </div>
+  </div>
+</div>
